@@ -18,12 +18,12 @@ Configured and installed Active Directory Domain Services on a Windows Server vi
 
 <p align="center">
 virtual machine was created with Windows Server and server was promoted to a domain controller and Active Directory was installed.: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097062650077/Screenshot_2025-12-17_211930.png?ex=695b7f04&is=695a2d84&hm=89c59dbaeedf1fcd9d838404ad7dda50c5ae215c93c7f3df206f453f2ce128d4&" height="80%" width="80%" alt="Network enterprise"/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097494794250/Screenshot_2025-12-17_213035.png?ex=695b7f04&is=695a2d84&hm=23ca63789d5d2809f91ef153b6a4ef84922bf183d7504d4b3d839392503986d0&" height="80%" width="80%" alt="Network enterprise"/>
+<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097062650077/Screenshot_2025-12-17_211930.png?ex=696956c4&is=69680544&hm=f10d3c5651a30c5212ce9bbf3eca741b585833a610b577714ce5fdc7dea86110&" height="80%" width="80%" alt="Network enterprise"/>
+<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097494794250/Screenshot_2025-12-17_213035.png?ex=696956c4&is=69680544&hm=b20527f1cb4db4b73a78afccc39584eddf5270261fb79a26e10c872e353d674e&" height="80%" width="80%" alt="Network enterprise"/>
 <br />
 <br />
 Then, AD created the domain, which was changed to WESTWOOD shortly after: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456394215041925254/Screenshot_2025-12-17_212823.png?ex=695b800f&is=695a2e8f&hm=9e64524b9d487888dbe0c1a7b834b1f014051979b5e567713cc3d38b87f2f0ac" height="80%" width="80%" alt="Network enterprise"/>
+<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456394215041925254/Screenshot_2025-12-17_212823.png?ex=696957cf&is=6968064f&hm=62482b6f7efef8ca107e9e1aa9966b0709b88d149022460887bc3e3d97858e5a" height="80%" width="80%" alt="Network enterprise"/>
 <br />
 <br />
 Once AD domain is created, I created organizational units (OUs) for different departments: <br/>
