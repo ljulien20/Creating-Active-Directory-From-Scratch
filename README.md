@@ -38,7 +38,9 @@ EVERYONE in the domain has permission to read this file now:
 <img width="1372" height="934" alt="Screenshot 2026-01-01 133051" src="https://github.com/user-attachments/assets/0906a860-5e68-48bf-8565-0cf5ae38f438" />
 <br />
 I configured the SHARED file to the "S" drive on the Drive Maps page after the group policy is made for Mapped Drives. (edited)Thursday, January 1, 2026 5:58 PM
-
+<img width="1080" height="795" alt="Screenshot 2026-01-01 173527" src="https://github.com/user-attachments/assets/b7fd125e-04ae-4a10-9c31-9eebbaf7e230" />
+Once the group policy is configured completely, I then added the policy to each user group under Asia, Europe, and the USA. In these situations, changes and configurations to users' computers that will be able to easily access the S drive will be completed once each user's PC is updated.
+<img width="1245" height="884" alt="Screenshot 2026-01-01 175850" src="https://github.com/user-attachments/assets/75c86c8f-29be-4ad2-8e40-475140fdfe12" />
 <br />
 <br />
 </p>
