@@ -18,20 +18,27 @@ Configured and installed Active Directory Domain Services on a Windows Server vi
 
 <p align="center">
 virtual machine was created with Windows Server and server was promoted to a domain controller and Active Directory was installed.: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097062650077/Screenshot_2025-12-17_211930.png?ex=696956c4&is=69680544&hm=f10d3c5651a30c5212ce9bbf3eca741b585833a610b577714ce5fdc7dea86110&" height="80%" width="80%" alt="Network enterprise"/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456393097494794250/Screenshot_2025-12-17_213035.png?ex=696956c4&is=69680544&hm=b20527f1cb4db4b73a78afccc39584eddf5270261fb79a26e10c872e353d674e&" height="80%" width="80%" alt="Network enterprise"/>
+<img width="2558" height="1320" alt="Screenshot 2025-12-17 213035" src="https://github.com/user-attachments/assets/091f3d11-029c-4141-9665-f39861636578" />
 <br />
 <br />
 Then, AD created the domain, which was changed to WESTWOOD shortly after: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456394215041925254/Screenshot_2025-12-17_212823.png?ex=696957cf&is=6968064f&hm=62482b6f7efef8ca107e9e1aa9966b0709b88d149022460887bc3e3d97858e5a" height="80%" width="80%" alt="Network enterprise"/>
+<img width="2527" height="1346" alt="Screenshot 2025-12-17 212823" src="https://github.com/user-attachments/assets/c0449dd9-c0d9-4ef1-afd8-c4845a47e4b2" />
 <br />
 <br />
 Once AD domain is created, I created organizational units (OUs) for different departments: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456395752229179606/Screenshot_2025-12-24_181520.png?ex=695b817d&is=695a2ffd&hm=2734145756beb75a362325900aff9b11c672c607de2b7459bd9d433734e475c1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1339" height="888" alt="Screenshot 2025-12-24 181520" src="https://github.com/user-attachments/assets/83f997c2-a071-4318-9f20-84c09a465b00" />
 <br />
 <br />
 I created user accounts and groups within these OUs: <br/>
-<img src="https://cdn.discordapp.com/attachments/1445251151896248323/1456396160335085630/Screenshot_2025-12-31_194043.png?ex=695b81df&is=695a305f&hm=be2a12de8ba5711504133e3067c72088d91b56daa5010ec3192cb8da35c8df63" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1094" height="816" alt="Screenshot 2025-12-31 194043" src="https://github.com/user-attachments/assets/ef2ecf94-777f-4925-8fa2-ad76975ea395" />
+I configure GPOs to automatically map network drivers for users on the domain. This helps with having to map the drive on each device manually. I will start by making a shared folder. <br/>
+<img width="1344" height="948" alt="Screenshot 2026-01-01 133008" src="https://github.com/user-attachments/assets/b54dc047-00ac-4831-b49c-bb66fe991cd1" />
+<br />
+EVERYONE in the domain has permission to read this file now:
+<img width="1372" height="934" alt="Screenshot 2026-01-01 133051" src="https://github.com/user-attachments/assets/0906a860-5e68-48bf-8565-0cf5ae38f438" />
+<br />
+I configured the SHARED file to the "S" drive on the Drive Maps page after the group policy is made for Mapped Drives. (edited)Thursday, January 1, 2026 5:58 PM
+
 <br />
 <br />
 </p>
